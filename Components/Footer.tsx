@@ -3,6 +3,7 @@ import Link from "next/link";
 import React from "react";
 import Container from "./Container";
 
+
 export default function Footer() {
   return (
     <footer className="w-full h-80 bottom-0 bg-red-950">
