@@ -11,10 +11,10 @@ export default function page() {
       <Header/>
       <Hero/>
       <Nurturing/>
-      <Who_we_are/>
+      <Who_we_are/>//This naming convetions try WhoWeAre
       <Footer/>
     </main>
   )
 }
 
-//great now commit👍
+//great now commit👍 // its fixed//that was from when i changed the convention to C
