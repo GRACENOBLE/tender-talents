@@ -1,8 +1,8 @@
-import Footer from '@/Components/Footer'
-import Header from '@/Components/Header'
-import Hero from '@/Components/Hero'
-import Nurturing from '@/Components/Nurturing'
-import Who_we_are from '@/Components/Who_we_are'
+import Footer from '@/components/Footer'
+import Header from '@/components/Header'
+import Hero from '@/components/Hero'
+import Nurturing from '@/components/Nurturing'
+import Who_we_are from '@/components/Who_we_are'
 import React from 'react'
 
 export default function page() {

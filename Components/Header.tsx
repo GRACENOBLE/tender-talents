@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
-import Container from "./Container";
 import Link from "next/link";
+import Container from "./Container";
 
 export default function Header() {
   return (
