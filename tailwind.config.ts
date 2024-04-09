@@ -3,6 +3,7 @@ import type { Config } from "tailwindcss";
 const config = {
   darkMode: ["class"],
   content: [
+    //try renaming the folder name form the windows explorer->okay
     "./pages/**/*.{ts,tsx}",
     "./Components/**/*.{ts,tsx}",
     "./app/**/*.{ts,tsx}",
