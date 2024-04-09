@@ -3,7 +3,7 @@ import Link from "next/link";
 import React from "react";
 import Container from "./Container";
 
-export default function Who_we_are() {
+export default function WhoWeAre() {
   return (
     <div className="h-[980px] w-full">
       <Container>
