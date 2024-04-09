@@ -8,11 +8,9 @@ import WhoWeAre from '@/components/WhoWeAre'
 export default function HomePage() {
   return (
     <main>
-      <Header/>
       <Hero/>
       <Nurturing/>
       <WhoWeAre/>
-      <Footer/>
     </main>
   )
 }
@@ -25,5 +23,5 @@ export default function HomePage() {
 //Delete the package-lock.json
 
 //commit
-
-//done👍
+//now the footer and Header goin the layout component
+//ooooh i was getting round to doing that, -> lemmi do it tho - 1

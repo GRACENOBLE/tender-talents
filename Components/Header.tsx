@@ -2,8 +2,7 @@ import Image from "next/image";
 import React from "react";
 import Link from "next/link";
 import Container from "./Container";
-import { Button } from "@/Components/ui/button";
-
+import {Button} from "@/components/ui/button"
 
 
 export default function Header() {
