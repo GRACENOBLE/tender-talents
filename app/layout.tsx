@@ -27,4 +27,7 @@ export default function RootLayout({
   );
 }
 
-//commit==>ok
+//restart the server// that on vercel ?- local server - I updates the next config - I want  to add pexels.com images
+
+//done
+//replace the divs with pexels school images as i figure out the colors//all divs to "pexels"???/ yeah replace the blocks to images just like skillshare.com//okay

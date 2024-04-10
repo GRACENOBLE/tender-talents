@@ -3,7 +3,7 @@ import type { Config } from "tailwindcss";
 const config = {
   darkMode: ["class"],
   content: [
-    //try renaming the folder name form the windows explorer->okay
+   
     "./pages/**/*.{ts,tsx}",
     "./Components/**/*.{ts,tsx}",
     "./app/**/*.{ts,tsx}",
@@ -19,6 +19,12 @@ const config = {
       },
     },
     extend: {
+      colors:{
+          "tt-red": "#7E2726",
+          "tt-yellow":"#F4B34D",
+          "tt-pink" : "#EBCDB5",
+          "tt-cream": "#E8E3D0"
+      },
       keyframes: {
         "accordion-down": {
           from: { height: "0" },

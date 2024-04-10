@@ -5,7 +5,7 @@ import { Button } from "./ui/button";
 
 export default function Nurturing() {
   return (
-    <div className="w-full h-[980px] flex justify-center items-center border gap-52 bg-red-950">
+    <div className="w-full h-[980px] flex justify-center items-center border gap-52 bg-tt-red">
       <Container>
         <div className="w-full h-[980px] flex justify-between items-center  gap-52">
           <Image

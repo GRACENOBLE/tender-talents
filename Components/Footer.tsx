@@ -6,7 +6,7 @@ import Container from "./Container";
 
 export default function Footer() {
   return (
-    <footer className="w-full h-80 bottom-0 bg-red-950">
+    <footer className="w-full h-80 bottom-0 bg-tt-red">
       <Container>
         <div className="flex w-full h-max justify-between items-center">
           <div>
@@ -20,7 +20,7 @@ export default function Footer() {
           </div>
           <div className="flex gap-40 text-white">
             <div className="flex flex-col gap-2">
-              <h1 className="text-orange-400">DOWNLOAD</h1>
+              <h1 className="text-tt-yellow">DOWNLOAD</h1>
               <Navlink title={"Fees structure"} path={""} />
               <Navlink title={"Application form"} path={""} />
               <Navlink title={"Prospectus"} path={""} />

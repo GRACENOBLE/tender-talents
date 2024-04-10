@@ -5,25 +5,13 @@ import Container from "./Container";
 import {Button} from "@/components/ui/button"
 
 
-export default function Header() {
+export default function Header() {//interesting style......Yeah I think its coming along, thoughts?//so the colors are nolonger clashing too much but what i fear is that in making it look better by darkening and gradients we may sort of divert from their color scheme......that okay>>>???????......We are going to use mostly white and cream and sprinkle the other colors where necessary -- not too much----->works for me🤣👍....Thats all I had you can add other stuff======> no prob im gonna make my research and see what we can add to make it better // follow the tendertalents.com structure., co...okayn twe willl build on what ill have added , easy the following section below should be light//understood....cause hero bg is dark??
   return (
-    <header className="w-full h-[75px] top-0 left-0 bg-red-950 text-white">
+    <header className="w-full fixed py-4 top-0 z-50 left-0 text-white bg-gradient-to-b from-black to-transparent">
       <Container>
         <nav className="flex justify-between items-center">
           <Link href="./">
-            <div className="flex gap-2">
-              <Image
-                src="/Images/Badge.png"
-                alt=""
-                width={4000}
-                height={8000}
-                className="w-9"
-              />
-              <div className="flex flex-col justify-center ">
-                <p>TENDER TALENTS</p>
-                <p>MAGNET SCHOOL</p>
-              </div>
-            </div>
+              <h2>Tender Talents</h2>
           </Link>
 
           <div className="flex gap-7">
