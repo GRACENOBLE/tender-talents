@@ -2,8 +2,6 @@ import Image from "next/image";
 import React from "react";
 import HeroImage from "./HeroImage";
 
-import Container from "./Container";
-
 export default function Hero() {
   return (
     <section className="bg-tt-red ">
