@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import Link from "next/link";
 import Container from "./Container";
-import {Button} from "@/Components/ui/button"
+import {Button} from "@/components/ui/button"
 
 
 export default function Header() {//interesting style......Yeah I think its coming along, thoughts?//so the colors are nolonger clashing too much but what i fear is that in making it look better by darkening and gradients we may sort of divert from their color scheme......that okay>>>???????......We are going to use mostly white and cream and sprinkle the other colors where necessary -- not too much----->works for me🤣👍....Thats all I had you can add other stuff======> no prob im gonna make my research and see what we can add to make it better // follow the tendertalents.com structure., co...okayn twe willl build on what ill have added , easy the following section below should be light//understood....cause hero bg is dark?? yeah. try to keep the website light. Following amberloops.com//oh yes i was referencing from there 
