@@ -3,7 +3,6 @@ import { Nunito_Sans } from "next/font/google";
 import "./globals.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import NewHeader from "@/components/NewHeader";
 
 const inter = Nunito_Sans({ subsets: ["latin"] });
 
@@ -21,7 +20,6 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <Header/>
-        <NewHeader/>
         {children}
         <Footer/>
       </body>

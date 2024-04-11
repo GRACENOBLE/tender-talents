@@ -15,13 +15,3 @@ export default function HomePage() {
   )
 }
 
-//failed to deploy - Whats the erro   one sec----> checking logs
-//same old error------>failed to compile, cannot resolve "@/components/footer"
-//and all other elements in @/components directory
-
-//may have a solution-------------
-//Delete the package-lock.json
-
-//commit
-//now the footer and Header goin the layout component
-//ooooh i was getting round to doing that, -> lemmi do it tho - 1
