@@ -5,7 +5,7 @@ import HeroImage from "./HeroImage";
 export default function Hero() {
   return (
     <section className="bg-tt-red ">
-      <div className="w-screen max-w-[1920px] mx-auto grid grid-cols-6 grid-rows-4 gap-1 h-screen max-h-[900px]">
+      <div className="w-screen max-w-[1920px] mx-auto grid grid-cols-6 grid-rows-4 gap-1 h-screen pb-1 max-h-[900px]">
         <HeroImage
           image="/Images/one.jpg"
           grid_position={"col-span-2 row-span-2"}

@@ -6,9 +6,9 @@ import Container from "./Container";
 
 export default function Footer() {
   return (
-    <footer className="w-full h-80 bottom-0 bg-tt-red">
+    <footer className="w-full  bottom-0 bg-tt-red">
       <Container>
-        <div className="flex w-full h-max justify-between items-center">
+        <div className="flex w-full h-[300px] justify-between items-center">
           <div>
             <Image
               src="/Images/Badge.png"

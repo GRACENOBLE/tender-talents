@@ -22,7 +22,7 @@ const Header = ()=> {
             <Navlink title={"Galery"} path={"/Galery"} />
           </div>
           <div>
-            <Button className="bg-tt-yellow text-red-950 text-md font-bold hover:bg-white">APPLY</Button>
+            <Button className="bg-tt-yellow text-red-950 text-md font-bold hover:bg-orange-400">APPLY</Button>
           </div>
         </nav>
       </Container>
