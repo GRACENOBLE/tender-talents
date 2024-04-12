@@ -19,27 +19,27 @@ export default function Footer() {
             />
           </div>
           <div className="flex gap-40 text-white">
-            <div className="flex flex-col gap-2">
+            <div className="flex flex-col gap-2 text-tt-cream">
               <h1 className="text-tt-yellow">DOWNLOAD</h1>
               <Navlink title={"Fees structure"} path={""} />
               <Navlink title={"Application form"} path={""} />
               <Navlink title={"Prospectus"} path={""} />
             </div>
-            <div className="flex flex-col gap-2">
-              <h1 className="text-orange-400">SCHOOL</h1>
+            <div className="flex flex-col gap-2 text-tt-cream">
+              <h1 className="text-tt-yellow">SCHOOL</h1>
               <Navlink title={"Theatre"} path={""} />
               <Navlink title={"About"} path={""} />
               <Navlink title={"Programs"} path={""} />
             </div>
-            <div>
-              <h1 className="text-orange-400">LOCATION</h1>
-              <p>P.O Box 26354,   </p>
+            <div className="text-tt-cream">
+              <h1 className="text-tt-yellow ">LOCATION</h1>
+              <p>P.O Box 26354, </p>
               <p>UG Kasangati,</p>
               <p>Buyinja zone,</p>
               <p>Sseninde Road</p>
             </div>
-            <div className="flex flex-col gap-2">
-              <h1 className="text-orange-400">CONTACT</h1>
+            <div className="flex flex-col gap-2 text-tt-cream">
+              <h1 className="text-tt-yellow">CONTACT</h1>
               <Navlink title={"+256 772 420453"} path={""} />
               <Navlink title={"+256 753 871851"} path={""} />
             </div>

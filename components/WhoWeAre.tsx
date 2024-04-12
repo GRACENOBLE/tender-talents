@@ -55,7 +55,7 @@ type CardProps = { title: string; path: string; description: string };
 const Card = ({ title, path, description }: CardProps) => (
   <Link href={path}>
     <div className="border rounded-lg w-96 hover:shadow-xl ps-5 py-7 backdrop:blur-md">
-      <div className="text-red-950 font-bold text-xl">{title}</div>
+      <div className="text-tt-red font-bold text-xl">{title}</div>
       <div>{description}</div>
     </div>
   </Link>
