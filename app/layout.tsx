@@ -20,14 +20,10 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <Header/>
+        
         {children}
         <Footer/>
       </body>
     </html>
   );
 }
-
-//restart the server// that on vercel ?- local server - I updates the next config - I want  to add pexels.com images
-
-//done
-//replace the divs with pexels school images as i figure out the colors//all divs to "pexels"???/ yeah replace the blocks to images just like skillshare.com//okay

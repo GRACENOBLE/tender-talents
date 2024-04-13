@@ -1,17 +1,36 @@
+"use client"
+
 import Image from "next/image";
-import React from "react";
+import React, { useState,useEffect } from "react";
 import Link from "next/link";
 import Container from "./Container";
-import {Button} from "@/components/ui/button"
+import { Button } from "@/components/ui/button";
 
+export default function Header() {
+  const[isScrolled, setisScrolled] = useState(false)
 
-const Header = ()=> {
+    useEffect(() =>{
+      const handleScroll = () =>{
+        const scrolled =
+          (window.scrollY >= 600)
+        setisScrolled(scrolled)
+      }
+      window.addEventListener("scroll",handleScroll)
+      return () =>{
+        if(window){
+          window.removeEventListener("scroll",handleScroll)
+        }     
+      }
+    },[])
   return (
-    <header className="w-full fixed py-4 top-0 z-50 left-0 text-white bg-gradient-to-b from-black to-transparent">
+      <header className={`"absolute w-full fixed py-4 top-0 z-50 left-0  text-white " ${isScrolled? "bg-tt-red":"bg-gradient-to-b from-black to-transparent"}`}>
       <Container>
         <nav className="flex justify-between items-center">
           <Link href="./">
-              <h2>Tender Talents</h2>
+            <div>
+              <h2 className="uppercase">Tender Talents</h2>
+              <h2 className="uppercase">Magnet school</h2>
+            </div>
           </Link>
 
           <div className="flex gap-7">
@@ -22,15 +41,16 @@ const Header = ()=> {
             <Navlink title={"Galery"} path={"/Galery"} />
           </div>
           <div>
-            <Button className="bg-tt-yellow text-red-950 text-md font-bold hover:bg-orange-400">APPLY</Button>
+            <Button className="bg-tt-yellow text-red-950 text-md font-bold hover:bg-white hover:text-black">
+              APPLY
+            </Button>
           </div>
         </nav>
       </Container>
     </header>
-  );
+    
+  )
 }
-
-export default Header;
 
 type NavLinkProps = { title: string; path: string };
 
