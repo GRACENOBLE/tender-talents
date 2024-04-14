@@ -34,7 +34,7 @@ export default function Nurturing() {
               doloribus voluptate.
             </div>
             <div>
-              <Button className="bg-tt-yellow hover:bg-orange-400">Contact us now</Button>
+              <Button className="bg-tt-yellow hover:bg-white">Contact us now</Button>
             </div>
           </div>
         </div>

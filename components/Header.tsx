@@ -29,7 +29,7 @@ export default function Header() {
           <Link href="./">
             <div>
               <h2 className="uppercase">Tender Talents</h2>
-              <h2 className="uppercase">Magnet school</h2>
+              {/* <h2 className="uppercase">Magnet school</h2> */}
             </div>
           </Link>
 

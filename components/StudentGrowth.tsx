@@ -11,7 +11,7 @@ export default function StudentGrowth() {
             <Image src="/Images/Badge.png" alt="" width={400} height={400} />
           </div>
           <div className="max-w-[800px] flex flex-col gap-9 justify-center">
-            <h1 className="text-[70px] uppercase border font-bold text-tt-red">
+            <h1 className="text-[70px] uppercase font-bold text-tt-red">
               OUR COMMITMENT TO STUDENT GROWTH
             </h1>
             <p className="">
