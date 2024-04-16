@@ -7,20 +7,17 @@ export default function Hero() {
     <section className="bg-tt-red ">
       <div className="w-screen max-w-[1920px] mx-auto grid grid-cols-6 grid-rows-4 gap-1 h-screen pb-1 max-h-[900px]">
         <HeroImage
-          image="/Images/one.jpg"
+          image="/Images/studensWalking2.png"
           grid_position={"col-span-2 row-span-2"}
         />
+        <HeroImage image="/Images/discussion.png" grid_position={"col-span-1 "} />
         <HeroImage
-          image="https://images.pexels.com/photos/18889468/pexels-photo-18889468/free-photo-of-pencil.jpeg?auto=compress&cs=tinysrgb&w=800"
-          grid_position={"col-span-1 "}
-        />
-        <HeroImage
-          image="https://images.pexels.com/photos/8948347/pexels-photo-8948347.jpeg?auto=compress&cs=tinysrgb&w=800"
+          image="/Images/studentsWalking.png"
           grid_position={"col-span-1 "}
         />
 
         <HeroImage
-          image="https://images.pexels.com/photos/2170105/pexels-photo-2170105.jpeg?auto=compress&cs=tinysrgb&w=800"
+          image="/Images/potOnHead.png"
           grid_position={"col-span-2 row-span-2"}
         />
 
@@ -42,24 +39,18 @@ export default function Hero() {
         </div>
 
         <HeroImage
-          image="https://images.pexels.com/photos/9628111/pexels-photo-9628111.jpeg?auto=compress&cs=tinysrgb&w=800"
+          image="/Images/computerLab2.JPG"
           grid_position={"row-span-2 col-span-2"}
         />
 
         <HeroImage
-          image="https://images.pexels.com/photos/5905458/pexels-photo-5905458.jpeg?auto=compress&cs=tinysrgb&w=800"
+          image="/Images/theatre3.png"
           grid_position={"col-span-2 row-span-2"}
         />
 
-        <HeroImage
-          image="https://images.pexels.com/photos/6344238/pexels-photo-6344238.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-          grid_position={"col-span-1 "}
-        />
+        <HeroImage image="/Images/band.png" grid_position={"col-span-1 "} />
 
-        <HeroImage
-          image="https://images.pexels.com/photos/8618026/pexels-photo-8618026.jpeg?auto=compress&cs=tinysrgb&w=800"
-          grid_position={"col-span-1 "}
-        />
+        <HeroImage image="/Images/dance2.png" grid_position={"col-span-1 "} />
       </div>
     </section>
   );

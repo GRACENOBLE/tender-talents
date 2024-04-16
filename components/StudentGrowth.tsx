@@ -4,13 +4,13 @@ import Container from "./Container";
 
 export default function StudentGrowth() {
   return (
-    <section className="bg-tt-pink">
+    <section className="bg-tt-pink h-screen">
       <Container>
-        <div className="flex justify-around">
+        <div className="flex items-center h-screen">
           <div>
-            <Image src="/Images/Badge.png" alt="" width={400} height={400} />
+            <Image src="/Images/group.png" alt="" width={1000} height={1000} className="h-[460px] w-[600px] rounded-md object-cover"/>
           </div>
-          <div className="max-w-[800px] flex flex-col gap-9 justify-center">
+          <div className="max-w-[900px] flex flex-col gap-9 justify-center ps-20">
             <h1 className="text-[70px] uppercase font-bold text-tt-red">
               OUR COMMITMENT TO STUDENT GROWTH
             </h1>

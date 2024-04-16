@@ -4,35 +4,45 @@ import Image from "next/image";
 
 export default function Partners() {
   return (
-    <section className="bg-tt-cream">
+    <section className="bg-tt-cream h-screen">
       <Container>
-        <div className="flex justify-center">
-          <h1 className="text-[90px] uppercase font-bold text-tt-red">
-            Our Partners
-          </h1>
-        </div>
-
-        <div className="w-full h-full  flex justify-between">
-          <div className="flex flex-col gap-4 justify-center pb-4 w-full">
-            <div className="max-w-[600px]">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam
-              tempore eum reprehenderit laboriosam corrupti ratione iusto illo
-              nesciunt obcaecati sunt beatae, necessitatibus, et aspernatur.
-              Repellat nam beatae quisquam atque incidunt officiis magni vero
-              veritatis labore saepe sunt, repudiandae recusandae odio iusto
-              modi temporibus optio eos possimus a est, maxime molestias.
-            </div>
-            <div className="max-w-[600px]">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam
-              tempore eum reprehenderit laboriosam corrupti ratione iusto illo
-              nesciunt obcaecati sunt beatae, necessitatibus, et aspernatur.
-              Repellat nam beatae quisquam atque incidunt officiis magni vero
-              veritatis labore saepe sunt, repudiandae recusandae odio iusto
-              modi temporibus optio eos possimus a est, maxime molestias.
-            </div>
+        <div className="h-screen flex flex-col justify-evenly">
+          <div className="flex justify-center">
+            <h1 className="text-[90px] uppercase font-bold text-tt-red">
+              Our Partners
+            </h1>
           </div>
-          <div>
-            <Image src="/Images/Badge.png" width={400} alt="" height={400} />
+
+          <div className="w-full border flex justify-between items-center">
+            <div className="flex flex-col gap-4 justify-center w-full">
+              <div className="max-w-[600px]">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Quisquam tempore eum reprehenderit laboriosam corrupti ratione
+                iusto illo nesciunt obcaecati sunt beatae, necessitatibus, et
+                aspernatur. Repellat nam beatae quisquam atque incidunt officiis
+                magni vero veritatis labore saepe sunt, repudiandae recusandae
+                odio iusto modi temporibus optio eos possimus a est, maxime
+                molestias.
+              </div>
+              <div className="max-w-[600px]">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Quisquam tempore eum reprehenderit laboriosam corrupti ratione
+                iusto illo nesciunt obcaecati sunt beatae, necessitatibus, et
+                aspernatur. Repellat nam beatae quisquam atque incidunt officiis
+                magni vero veritatis labore saepe sunt, repudiandae recusandae
+                odio iusto modi temporibus optio eos possimus a est, maxime
+                molestias.
+              </div>
+            </div>
+            <div>
+              <Image
+                src="/Images/Partners.png"
+                width={400}
+                alt=""
+                height={400}
+                className="border w-[900px]"
+              />
+            </div>
           </div>
         </div>
       </Container>

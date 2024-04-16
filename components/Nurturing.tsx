@@ -5,20 +5,20 @@ import { Button } from "./ui/button";
 
 export default function Nurturing() {
   return (
-    <div className="w-full h-[980px] flex justify-center items-center  gap-52 bg-tt-cream">
+    <section className="w-full h-screen flex justify-center items-center bg-tt-cream">
       <Container>
-        <div className="w-full h-[980px] flex justify-between items-center gap-52">
-          <div className="w-full">
+        <div className=" h-[980px] flex items-center ">
+          <div className="w-[800px]">
             <Image
-            src="/Images/Badge.png"
-            alt=""
-            width={400}
-            height={400}
-            className="h-[400] w-[400] mx-auto"
-          />
+              src="/Images/discussion.png"
+              alt=""
+              width={1000}
+              height={1000}
+              className=" h-[460px] w-[600px] rounded-md object-cover"
+            />
           </div>
-          
-          <div className="max-w-[800px] flex flex-col gap-8">
+
+          <div className="ps-20 max-w-[800px] flex flex-col gap-8">
             <div>
               <h1 className="font-bold text-[90px] uppercase text-tt-red">
                 Nurturing Potential
@@ -34,11 +34,13 @@ export default function Nurturing() {
               doloribus voluptate.
             </div>
             <div>
-              <Button className="bg-tt-yellow hover:bg-white">Contact us now</Button>
+              <Button className="bg-tt-yellow text-red-950 text-md font-bold hover:bg-white hover:text-black">
+                Contact us now
+              </Button>
             </div>
           </div>
         </div>
       </Container>
-    </div>
+    </section>
   );
 }
