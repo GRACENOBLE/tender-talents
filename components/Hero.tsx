@@ -23,7 +23,7 @@ export default function Hero() {
 
         <div className="col-span-2 row-span-2 bg-tt-cream grid place-items-center  p-4">
           <h1 className="text-tt-red text-2xl">
-            <div>
+            <div>{/*note to self each of these images will have to be replaced with hosted images so as to improve SEO */}
               <Image
                 src="/Images/Badge.png"
                 alt=""

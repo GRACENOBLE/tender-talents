@@ -13,7 +13,7 @@ export default function Partners() {
             </h1>
           </div>
 
-          <div className="w-full border flex justify-between items-center">
+          <div className="w-full flex justify-between items-center">
             <div className="flex flex-col gap-4 justify-center w-full">
               <div className="max-w-[600px]">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
@@ -40,7 +40,7 @@ export default function Partners() {
                 width={400}
                 alt=""
                 height={400}
-                className="border w-[900px]"
+                className="w-[900px]"
               />
             </div>
           </div>
