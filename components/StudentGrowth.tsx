@@ -8,7 +8,13 @@ export default function StudentGrowth() {
       <Container>
         <div className="flex items-center h-screen">
           <div>
-            <Image src="/Images/group.png" alt="" width={1000} height={1000} className="h-[460px] w-[600px] rounded-md object-cover"/>
+            <Image
+              src="https://r9kvhfb2qmlqu55z.public.blob.vercel-storage.com/group-VlhRows9lVzb3xSTOyXeF8lKHYGDSm.png"
+              alt=""
+              width={1000}
+              height={1000}
+              className="h-[460px] w-[600px] rounded-md object-cover"
+            />
           </div>
           <div className="max-w-[900px] flex flex-col gap-9 justify-center ps-20">
             <h1 className="text-[70px] uppercase font-bold text-tt-red">

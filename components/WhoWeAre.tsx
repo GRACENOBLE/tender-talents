@@ -14,7 +14,7 @@ export default function WhoWeAre() {
           <div className="flex gap-4 my-auto w-full justify-between">
             <div className=" flex flex-col justify-center px-7">
               <Image
-                src="/Images/building.png"
+                src="https://r9kvhfb2qmlqu55z.public.blob.vercel-storage.com/building-44ffvJjAoUWW8CWmQhwlOPeqD7Z4gi.png"
                 alt=""
                 width={400}
                 height={400}

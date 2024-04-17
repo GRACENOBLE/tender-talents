@@ -10,7 +10,7 @@ export default function Nurturing() {
         <div className=" h-[980px] flex items-center ">
           <div className="w-[800px]">
             <Image
-              src="/Images/discussion.png"
+              src="https://r9kvhfb2qmlqu55z.public.blob.vercel-storage.com/discussion-arqBzOEkjIyVWHpA7igS8RjmGOUJNo.png"
               alt=""
               width={1000}
               height={1000}
