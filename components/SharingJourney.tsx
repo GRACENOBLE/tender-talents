@@ -13,7 +13,7 @@ export default function SharingJourney() {
         <div className="w-full">
           <div className="flex  flex-wrap grid-cols-3 gap-5 w-full">
             {Array.from({ length: 9 }).map((_, index) => (
-              <GaleryCard image={"/Images/"} />
+              <GaleryCard image={"/Images/Badge.png"} />
             ))}
           </div>
         </div>

@@ -10,8 +10,9 @@ export default function GaleryCard({image}: {image: string}) {
         width={600}
         height={400}
         className="w-full min-w-40 max-w-[363.2px]"
-        // loading="lazy"
-        // placeholder="blur"
+        loading="lazy"
+        placeholder="blur"
+        blurDataURL="/Images/Badge.png"
       />
       {/* <div className="max-w-80 min-w-40 py-2">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut vitae,
