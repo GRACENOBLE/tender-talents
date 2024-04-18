@@ -7,33 +7,25 @@ export default function Hero() {
     <section className="bg-tt-red ">
       <div className="w-screen max-w-[1920px] mx-auto grid grid-cols-6 grid-rows-4 gap-1 h-screen pb-1 max-h-[900px]">
         <HeroImage
-          image="/Images/studensWalking2.png"
+          image="/Images/group.png"
           grid_position={"col-span-2 row-span-2"}
-          blurUrl={
-            "/Images/studensWalking2.png"
-          }
+          blurUrl={"/Images/group.png"}
         />
         <HeroImage
           image="/Images/discussion.png"
           grid_position={"col-span-1 "}
-          blurUrl={
-            "/Images/discussion.png"
-          }
+          blurUrl={"/Images/discussion.png"}
         />
         <HeroImage
-          image="/Images/studentsWalking.png"
+          image="/Images/potOnHead.png"
           grid_position={"col-span-1 "}
-          blurUrl={
-            "/Images/studentsWalking.png"
-          }
+          blurUrl={"/Images/potOnHead.png"}
         />
 
         <HeroImage
-          image="/Images/potOnHead.png"
+          image="/Images/studentsWalking.png"
           grid_position={"col-span-2 row-span-2"}
-          blurUrl={
-            "/Images/potOnHead.png"
-          }
+          blurUrl={"/Images/studentsWalking.png"}
         />
 
         <div className="col-span-2 row-span-2 bg-tt-cream grid place-items-center  p-4">
@@ -69,17 +61,13 @@ export default function Hero() {
         <HeroImage
           image="/Images/band.png"
           grid_position={"col-span-1 "}
-          blurUrl={
-            "/Images/band.png"
-          }
+          blurUrl={"/Images/band.png"}
         />
 
         <HeroImage
           image="/Images/dance2.png"
           grid_position={"col-span-1 "}
-          blurUrl={
-            "/Images/dance2.png"
-          }
+          blurUrl={"/Images/dance2.png"}
         />
       </div>
     </section>

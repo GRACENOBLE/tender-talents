@@ -9,7 +9,7 @@ export default function GaleryCard({image}: {image: string}) {
         alt=""
         width={600}
         height={400}
-        className="w-full min-w-40 max-w-[363.2px]"
+        className="w-full min-w-40 max-w-[363.2px] rounded-md"
         loading="lazy"
         placeholder="blur"
         blurDataURL="/Images/Badge.png"

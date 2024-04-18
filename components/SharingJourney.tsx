@@ -12,9 +12,12 @@ export default function SharingJourney() {
 
         <div className="w-full">
           <div className="flex  flex-wrap grid-cols-3 gap-5 w-full">
-            {Array.from({ length: 9 }).map((_, index) => (
-              <GaleryCard image={"/Images/Badge.png"} />
-            ))}
+            <GaleryCard image={"/Images/baking.png"} />
+            <GaleryCard image={"/Images/football.png"} />
+            <GaleryCard image={"/Images/netball.png"} />
+            <GaleryCard image={"/Images/students.png"} />
+            <GaleryCard image={"/Images/solderingFocused.png"} />
+            <GaleryCard image={"/Images/mask.png"} />
           </div>
         </div>
       </Container>
