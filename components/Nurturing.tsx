@@ -10,14 +10,14 @@ export default function Nurturing() {
         <div className=" h-[980px] flex items-center ">
           <div className="w-[800px]">
             <Image
-              src="https://r9kvhfb2qmlqu55z.public.blob.vercel-storage.com/discussion-arqBzOEkjIyVWHpA7igS8RjmGOUJNo.png"
+              src="/Images/discussion.png"
               alt=""
               width={1000}
               height={1000}
               className=" h-[460px] w-[600px] rounded-md object-cover"
               loading="lazy"
               placeholder="blur"
-              blurDataURL="https://r9kvhfb2qmlqu55z.public.blob.vercel-storage.com/discussion-arqBzOEkjIyVWHpA7igS8RjmGOUJNo.png"
+              blurDataURL="/Images/discussion.png"
             />
           </div>
 

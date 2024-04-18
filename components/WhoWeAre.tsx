@@ -14,14 +14,14 @@ export default function WhoWeAre() {
           <div className="flex gap-4 my-auto w-full justify-between">
             <div className=" flex flex-col justify-center px-7">
               <Image
-                src="https://r9kvhfb2qmlqu55z.public.blob.vercel-storage.com/building-44ffvJjAoUWW8CWmQhwlOPeqD7Z4gi.png"
+                src="/Images/building.png"
                 alt=""
                 width={400}
                 height={400}
                 className=" w-[700px] h-[570px] object-cover rounded-lg"
                 loading="lazy"
                 placeholder="blur"
-                blurDataURL="https://r9kvhfb2qmlqu55z.public.blob.vercel-storage.com/building-44ffvJjAoUWW8CWmQhwlOPeqD7Z4gi.png"
+                blurDataURL="/Images/building.png"
               />
             </div>
             <div className="flex flex-col items-center gap-4 w-[600px] py-7">

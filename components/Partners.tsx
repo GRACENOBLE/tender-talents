@@ -36,14 +36,14 @@ export default function Partners() {
             </div>
             <div>
               <Image
-                src="https://r9kvhfb2qmlqu55z.public.blob.vercel-storage.com/partners%201-SRC5qMZUg2460gHqCnD7Y2cBheToTR.png"
+                src="/Images/partners.png"
                 width={400}
                 alt=""
                 height={400}
                 className="w-[900px]"
                 loading="lazy"
                 placeholder="blur"
-                blurDataURL="https://r9kvhfb2qmlqu55z.public.blob.vercel-storage.com/partners%201-SRC5qMZUg2460gHqCnD7Y2cBheToTR.png"
+                blurDataURL="/Images/partners.png"
               />
             </div>
           </div>
