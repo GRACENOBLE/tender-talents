@@ -41,6 +41,8 @@ export default function Partners() {
                 alt=""
                 height={400}
                 className="w-[900px]"
+                loading="lazy"
+                placeholder="blur"
               />
             </div>
           </div>

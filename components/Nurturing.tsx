@@ -15,6 +15,8 @@ export default function Nurturing() {
               width={1000}
               height={1000}
               className=" h-[460px] w-[600px] rounded-md object-cover"
+              loading="lazy"
+              placeholder="blur"
             />
           </div>
 

@@ -19,6 +19,8 @@ export default function WhoWeAre() {
                 width={400}
                 height={400}
                 className=" w-[700px] h-[570px] object-cover rounded-lg"
+                loading="lazy"
+                placeholder="blur"
               />
             </div>
             <div className="flex flex-col items-center gap-4 w-[600px] py-7">
