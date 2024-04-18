@@ -21,6 +21,7 @@ export default function WhoWeAre() {
                 className=" w-[700px] h-[570px] object-cover rounded-lg"
                 loading="lazy"
                 placeholder="blur"
+                blurDataURL="https://r9kvhfb2qmlqu55z.public.blob.vercel-storage.com/building-44ffvJjAoUWW8CWmQhwlOPeqD7Z4gi.png"
               />
             </div>
             <div className="flex flex-col items-center gap-4 w-[600px] py-7">

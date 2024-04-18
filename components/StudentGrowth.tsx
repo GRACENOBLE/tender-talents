@@ -16,6 +16,7 @@ export default function StudentGrowth() {
               className="h-[460px] w-[600px] rounded-md object-cover"
               loading="lazy"
               placeholder="blur"
+              blurDataURL="https://r9kvhfb2qmlqu55z.public.blob.vercel-storage.com/group-VlhRows9lVzb3xSTOyXeF8lKHYGDSm.png"
             />
           </div>
           <div className="max-w-[900px] flex flex-col gap-9 justify-center ps-20">

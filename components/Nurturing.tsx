@@ -17,6 +17,7 @@ export default function Nurturing() {
               className=" h-[460px] w-[600px] rounded-md object-cover"
               loading="lazy"
               placeholder="blur"
+              blurDataURL="https://r9kvhfb2qmlqu55z.public.blob.vercel-storage.com/discussion-arqBzOEkjIyVWHpA7igS8RjmGOUJNo.png"
             />
           </div>
 
