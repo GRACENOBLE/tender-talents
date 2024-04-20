@@ -10,7 +10,7 @@ import Link from "next/link";
 export default function Hero() {
   const heroImages = [
     {
-      image: "/images/group.png",
+      image: "/images/hero-images/group.webp",
       title: "col-span-2 row-span-2  ",
       desc: "note to self each of these images will have to be replaced with hosted images so as to improve SEOnote to self each of these images will have to be replaced with hosted images so as to improve SEO",
     },

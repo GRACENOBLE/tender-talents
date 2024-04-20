@@ -10,7 +10,7 @@ const WhoWeAre = () => {
           "Since 1999, Tender Talents Magnet School has cultivated a rich tradition of academic excellence and artistic exploration. "
         }
         dir={false}
-        image={"/Images/home-images/about-home-2.webp"}
+        image={"/images/home-images/about-home-2.webp"}
         text2={
           "We provide a comprehensive education where students master the national curriculum while expressing their creativity through theater, music, dance, and more."
         }

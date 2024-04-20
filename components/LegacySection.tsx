@@ -12,7 +12,7 @@ export default function LegacySection() {
           "Over the years, we've not only nurtured artistic talents, but also fostered academic excellence. Our alumni consistently achieve outstanding results, going on to pursue their dreams in a variety of fields."
         }
         dir={true}
-        image={"/Images/home-images/students.webp"}
+        image={"/images/home-images/students.webp"}
         text2={""}
         btntext="Join Us Today"
         path="/apply"
