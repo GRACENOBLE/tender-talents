@@ -1,64 +1,24 @@
-import Image from "next/image";
-import Link from "next/link";
-import React from "react";
-import Container from "./Container";
 
-export default function WhoWeAre() {
+import FlexContainer from './FlexContainer';
+
+const WhoWeAre = () => {
   return (
-    <section className="h-[850px] w-full bg-tt-pink">
-      <Container>
-        <div className="w-full h-full flex flex-col items-center">
-          <h1 className="text-[90px] uppercase font-bold text-tt-red">
-            Who we are
-          </h1>
-          <div className="flex gap-4 my-auto w-full justify-between">
-            <div className=" flex flex-col justify-center px-7">
-              <Image
-                src="/Images/building.png"
-                alt=""
-                width={400}
-                height={400}
-                className=" w-[700px] h-[570px] object-cover rounded-lg"
-                loading="lazy"
-                placeholder="blur"
-                blurDataURL="/Images/building.png"
-              />
-            </div>
-            <div className="flex flex-col items-center gap-4 w-[600px] py-7">
-              <Card
-                title={"Mission"}
-                path={""}
-                description={
-                  "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae et cupiditate doloribus! Minima praesentium ipsa amet sapiente recusandae labore necessitatibus!"
-                }
-              />
-              <Card
-                title={"Vision"}
-                path={""}
-                description={
-                  "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae et cupiditate doloribus! Minima praesentium ipsa amet sapiente recusandae labore necessitatibus!"
-                }
-              />
-              <Card
-                title={"Discipline"}
-                path={""}
-                description={
-                  "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae et cupiditate doloribus! Minima praesentium ipsa amet sapiente recusandae labore necessitatibus!"
-                }
-              />
-            </div>
-          </div>
-        </div>
-      </Container>
+    <section className="bg-tt-cream/40">
+      <FlexContainer
+        title={"Who we are"}
+        text={
+          "Since 1999, Tender Talents Magnet School has cultivated a rich tradition of academic excellence and artistic exploration. "
+        }
+        dir={false}
+        image={"/Images/home-images/about-home-2.webp"}
+        text2={
+          "We provide a comprehensive education where students master the national curriculum while expressing their creativity through theater, music, dance, and more."
+        }
+        btntext='Learn more'
+        path='/about'
+      />
     </section>
   );
 }
 
-type CardProps = { title: string; path: string; description: string };
-
-const Card = ({ title, description }: CardProps) => (
-  <div className="border rounded-lg w-96 hover:shadow-xl hover:bg-tt-cream ps-5 py-7 backdrop:blur-md">
-    <div className="text-tt-red font-bold text-xl">{title}</div>
-    <div>{description}</div>
-  </div>
-);
+export default WhoWeAre

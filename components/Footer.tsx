@@ -11,7 +11,7 @@ export default function Footer() {
         <div className="flex w-full h-[300px] justify-between items-center">
           <div>
             <Image
-              src="/Images/Badge.png"
+              src="/Images/logo.svg"
               height={8000}
               width={4000}
               alt=""

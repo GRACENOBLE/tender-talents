@@ -3,7 +3,6 @@ import type { Config } from "tailwindcss";
 const config = {
   darkMode: ["class"],
   content: [
-   
     "./pages/**/*.{ts,tsx}",
     "./components/**/*.{ts,tsx}",
     "./app/**/*.{ts,tsx}",
@@ -19,12 +18,13 @@ const config = {
       },
     },
     extend: {
-      colors:{//rethinking the colors? //no, but for section bgs use the pink and cream mostly and the buttons use the yellow ////, section titles use the red//I hear you - sawa. Let me do some stuff here - adios
-          "tt-red": "#7E2726",
-          "tt-yellow":"#F4B34D",
-          "tt-pink" : "#EBCDB5",
-          "tt-cream": "#E8E3D0"
-      },//okay boss man ---->later
+      colors: {
+        //rethinking the colors? //no, but for section bgs use the pink and cream mostly and the buttons use the yellow ////, section titles use the red//I hear you - sawa. Let me do some stuff here - adios
+        "tt-red": "#7E2726",
+        "tt-yellow": "#FFC702",
+        "tt-pink": "#EBCDB5",
+        "tt-cream": "#E8E3D0",
+      }, //okay boss man ---->later
       keyframes: {
         "accordion-down": {
           from: { height: "0" },

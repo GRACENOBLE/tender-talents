@@ -4,48 +4,28 @@ import Image from "next/image";
 
 export default function Partners() {
   return (
-    <section className="bg-tt-cream h-screen">
+    <section className="bg-white py-8 md:py-16 ">
       <Container>
-        <div className="h-screen flex flex-col justify-evenly">
-          <div className="flex justify-center">
-            <h1 className="text-[90px] uppercase font-bold text-tt-red">
+        <div className="flex flex-col gap-8 items-start">
+          <div className="max-w-[460px]">
+            <h1 className="text-3xl text-tt-red font-[500] py-4 ">
               Our Partners
             </h1>
+            <p className="text-sm text-black max-w-[460px]">
+              At Tender Talents Magnet School, we are grateful for the support
+              and belief of those who have partnered with us. We have had the
+              privilege of working with numerous credible organizations and
+              schools, both locally and internationally.
+            </p>
           </div>
-
-          <div className="w-full flex justify-between items-center">
-            <div className="flex flex-col gap-4 justify-center w-full">
-              <div className="max-w-[600px]">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Quisquam tempore eum reprehenderit laboriosam corrupti ratione
-                iusto illo nesciunt obcaecati sunt beatae, necessitatibus, et
-                aspernatur. Repellat nam beatae quisquam atque incidunt officiis
-                magni vero veritatis labore saepe sunt, repudiandae recusandae
-                odio iusto modi temporibus optio eos possimus a est, maxime
-                molestias.
-              </div>
-              <div className="max-w-[600px]">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Quisquam tempore eum reprehenderit laboriosam corrupti ratione
-                iusto illo nesciunt obcaecati sunt beatae, necessitatibus, et
-                aspernatur. Repellat nam beatae quisquam atque incidunt officiis
-                magni vero veritatis labore saepe sunt, repudiandae recusandae
-                odio iusto modi temporibus optio eos possimus a est, maxime
-                molestias.
-              </div>
-            </div>
-            <div>
-              <Image
-                src="/Images/partners.png"
-                width={400}
-                alt=""
-                height={400}
-                className="w-[900px]"
-                loading="lazy"
-                placeholder="blur"
-                blurDataURL="/Images/partners.png"
-              />
-            </div>
+          <div className=" h-[400px] w-full gap-4">
+            <Image
+              src={"/Images/home-images/partners.webp"}
+              height={300}
+              width={1000}
+              alt={" at Tender Talents mahnet School Kasangati"}
+              className="h-full w-full object-contain  "
+            />
           </div>
         </div>
       </Container>

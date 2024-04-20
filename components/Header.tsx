@@ -25,42 +25,41 @@ export default function Header() {
       }
     },[])
   return (
-      <header className={`"absolute w-full fixed py-4 top-0 z-50 left-0  text-white " ${isScrolled? "bg-tt-red":"bg-gradient-to-b from-black to-transparent"}`}>
+    <header
+      className={` w-full fixed  top-0 z-50 left-0 backdrop-blur-sm border-b-[.5px] duration-500 transition-all border-b-white/20 bg-tt-red ${isScrolled ?"py-2":"py-4" }`}
+    >
       <Container>
         <nav className="flex justify-between items-center">
           <Link href="./">
             <div>
-              <h2 className="uppercase">Tender Talents</h2>
+              <h2 className="text-white">Tender Talents</h2>
               {/* <h2 className="uppercase">Magnet school</h2> */}
             </div>
           </Link>
 
-          <div className="flex gap-7">
-            <Navlink title={"Theatre"} path={"/Theatre"} />
-            <Navlink title={"Programs"} path={"/Programs"} />
-            <Navlink title={"About"} path={"/About"} />
-            <Navlink title={"Contact"} path={"/Contact"} />
-            <Navlink title={"Galery"} path={"/Galery"} />
-          </div>
-          <div>
-            <Button className="bg-tt-yellow text-red-950 text-md font-bold hover:bg-white hover:text-black">
-              APPLY
-            </Button>
+          <div className="flex items-center gap-20">
+            <ul className="flex items-center gap-8">
+              <Navlink title={"Programs"} path={"/Programs"} />
+              <Navlink title={"About"} path={"/About"} />
+              <Navlink title={"Contact"} path={"/Contact"} />
+            </ul>
+            <Button className="">Apply Now</Button>
           </div>
         </nav>
       </Container>
     </header>
-    
-  )
+  );
 }
 
 type NavLinkProps = { title: string; path: string };
 
 const Navlink = ({ title, path }: NavLinkProps) => (
-  <Link
-    href={path}
-    className="relative hover:text-gray-400 cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-gray-400 before:origin-center before:h-[1px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-gray-400 after:origin-center after:h-[1px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]"
-  >
-    {title}
-  </Link>
+  <li>
+    <Link
+      href={path}
+      className="relative hover:text-tt-yellow duration-300 before:w-full before:transition-all ease-in-out before:ease-in-out before:duration-300 before:absolute before:bg-tt-yellow before:origin-center before:h-[1px] before:scale-0 hover:before:scale-100 before:-bottom-1 before:left-0 text-white text-xs font-semibold"
+    >
+      {title}
+    </Link>
+  </li>
 );
