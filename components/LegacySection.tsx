@@ -14,6 +14,8 @@ export default function LegacySection() {
         dir={true}
         image={"/Images/home-images/students.webp"}
         text2={""}
+        btntext="Join Us Today"
+        path="/apply"
       />
     </section>
   );
