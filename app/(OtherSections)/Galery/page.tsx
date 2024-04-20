@@ -1,4 +1,4 @@
-import GaleryGrid from '@/components/GaleryGrid';
+import GaleryGrid from '@/components/GalleryGrid';
 import React from 'react'
 
 export default function page() {

@@ -1,5 +1,5 @@
 import React from "react";
-import GaleryCard from "./GaleryCard";
+import GaleryCard from "./GalleryCard";
 import Container from "./Container";
 
 export default function SharingJourney() {

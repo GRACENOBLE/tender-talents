@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Partners() {
   return (
-    <section className="bg-white py-8 md:py-16 ">
+    <section className="bg-white py-8 ">
       <Container>
         <div className="flex flex-col gap-8 items-start">
           <div className="max-w-[460px]">

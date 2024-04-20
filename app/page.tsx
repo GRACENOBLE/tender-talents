@@ -10,8 +10,62 @@ import SharingJourney from "@/components/SharingJourney";
 import StudentGrowth from "@/components/StudentGrowth";
 import WhoWeAre from "@/components/WhoWeAre";
 import LegacySection from "@/components/LegacySection";
+import GalleryGrid from "@/components/GalleryGrid";
 
 export default function HomePage() {
+
+  const photoCollection = [
+    {
+      image: 1,
+      caption: "string",
+    },
+    {
+      image: 2,
+      caption: "string",
+    },
+    {
+      image: 3,
+      caption: "string",
+    },
+    {
+      image: 4,
+      caption: "string",
+    },
+    {
+      image: 5,
+      caption: "string",
+    },
+    {
+      image: 6,
+      caption: "string",
+    },
+    {
+      image: 7,
+      caption: "string",
+    },
+    {
+      image: 8,
+      caption: "string",
+    },
+    {
+      image: 9,
+      caption: "string",
+    },
+    {
+      image: 10,
+      caption: "string",
+    },
+    {
+      image: 11,
+      caption: "string",
+    },
+    {
+      image: 12,
+      caption: "string",
+    }
+  ];
+
+
   return (
     <main>
       <Hero />
@@ -45,6 +99,7 @@ export default function HomePage() {
     <LegacySection/>
 
       <Partners />
+      <GalleryGrid photo_collection={photoCollection}/>
       {/* <StudentGrowth />
       <SharingJourney /> */}
     </main>

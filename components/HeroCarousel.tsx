@@ -6,7 +6,7 @@ import { useEffect } from "react";
 
 interface CarouselTypes {
   images: {
-    image: string;
+    image: number;
     desc: string;
     title: string;
  
@@ -35,11 +35,11 @@ const HeroCarousel = ({
       {images.map(({ image, caption }: any, index: number) => (
         <Image
           key={image}
-          src={image}
+          src={`/images/hero-images/photo_${image}.webp`}
           width={1000}
           height={900}
           alt={caption}
-          className={`absolute top-0 left-0 inset-0 w-full h-full object-cover object-center transition-opacity duration-1000 ease-in-out ${
+          className={`absolute top-0 object-top left-0 inset-0 w-full h-full object-cover  transition-opacity duration-1000 ease-in-out ${
             currentImage === index ? "opacity-100" : "opacity-0"
           }`}
         />
