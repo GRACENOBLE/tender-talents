@@ -20,7 +20,7 @@ export default function Partners() {
           </div>
           <div className=" h-[400px] w-full gap-4">
             <Image
-              src={"/Images/home-images/partners.webp"}
+              src={"/images/home-images/partners.webp"}
               height={300}
               width={1000}
               alt={" at Tender Talents mahnet School Kasangati"}
