@@ -1,13 +1,10 @@
 import Container from "@/components/Container";
-import FlexContainer from "@/components/FlexContainer";
-import Footer from "@/components/Footer";
-import Header from "@/components/Header";
+
 import Hero from "@/components/Hero";
 import MissionCard from "@/components/MissionCard";
-import Nurturing from "@/components/LegacySection";
+
 import Partners from "@/components/Partners";
-import SharingJourney from "@/components/SharingJourney";
-import StudentGrowth from "@/components/StudentGrowth";
+
 import WhoWeAre from "@/components/WhoWeAre";
 import LegacySection from "@/components/LegacySection";
 import GalleryGrid from "@/components/GalleryGrid";
@@ -100,8 +97,7 @@ export default function HomePage() {
 
       <Partners />
       <GalleryGrid photo_collection={photoCollection}/>
-      {/* <StudentGrowth />
-      <SharingJourney /> */}
+   
     </main>
   );
 }
