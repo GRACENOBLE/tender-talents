@@ -13,16 +13,59 @@ import {
 import Container from "./Container";
 import GalleryCard from "./GalleryCard";
 
-type GalleryProps = {
-  photo_collection: {
-    image: number;
-    caption: string;
-  }[];
-};
+const photoCollection = [
+  {
+    image: 1,
+    caption: "string",
+  },
+  {
+    image: 2,
+    caption: "string",
+  },
+  {
+    image: 3,
+    caption: "string",
+  },
+  {
+    image: 4,
+    caption: "string",
+  },
+  {
+    image: 5,
+    caption: "string",
+  },
+  {
+    image: 6,
+    caption: "string",
+  },
+  {
+    image: 7,
+    caption: "string",
+  },
+  {
+    image: 8,
+    caption: "string",
+  },
+  {
+    image: 9,
+    caption: "string",
+  },
+  {
+    image: 10,
+    caption: "string",
+  },
+  {
+    image: 11,
+    caption: "string",
+  },
+  {
+    image: 12,
+    caption: "string",
+  },
+];
 
-const GalleryGrid = ({ photo_collection }: GalleryProps) => {
-  const plugin = useRef(Autoplay({ delay: 5000, stopOnInteraction: true }));
-
+const GalleryGrid = () => {
+  const plugin = useRef(Autoplay({ delay: 5000 }));
   return (
     <section className="bg-tt-cream pt-16 pb-32 border">
       <Container>
@@ -46,10 +89,10 @@ const GalleryGrid = ({ photo_collection }: GalleryProps) => {
               className="w-full"
               plugins={[plugin.current]}
               onMouseEnter={plugin.current.stop}
-              onMouseLeave={plugin.current.reset}
+              onMouseLeave={plugin.current.play}
             >
               <CarouselContent className="h-[360px]">
-                {photo_collection.map(({ image, caption }, index) => (
+                {photoCollection.map(({ image, caption }, index) => (
                   <CarouselItem
                     key={image}
                     className="md:basis-1/2 lg:basis-1/3"

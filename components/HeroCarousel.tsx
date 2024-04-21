@@ -5,22 +5,42 @@ import Image from "next/image";
 import { useEffect } from "react";
 
 interface CarouselTypes {
-  images: {
-    image: number;
-    desc: string;
-    title: string;
- 
-  }[];
-  currentImage:number;
+  currentImage: number;
   setCurrentImage: any;
 }
 
+const heroImages = [
+  {
+    image: 1,
+  },
+  {
+    image: 2,
+  },
+  {
+    image: 3,
+  },
+  {
+    image: 4,
+  },
+  {
+    image: 5,
+  },
+  {
+    image: 6,
+  },
+  {
+    image: 7,
+  },
+  {
+    image: 8,
+  },
+];
+
 const HeroCarousel = ({
-  images,
   currentImage,
   setCurrentImage,
 }: CarouselTypes) => {
-  const imagesL = images.length;
+  const imagesL = heroImages.length;
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -32,13 +52,13 @@ const HeroCarousel = ({
 
   return (
     <div className="absolute top-0 left-0 w-full h-full -z-50">
-      {images.map(({ image, caption }: any, index: number) => (
+      {heroImages.map(({ image}: any, index: number) => (
         <Image
           key={image}
           src={`/images/hero-images/photo_${image}.webp`}
           width={1000}
           height={900}
-          alt={caption}
+          alt=""
           className={`absolute top-0 object-top left-0 inset-0 w-full h-full object-cover  transition-opacity duration-1000 ease-in-out ${
             currentImage === index ? "opacity-100" : "opacity-0"
           }`}
