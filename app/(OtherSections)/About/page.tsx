@@ -1,12 +1,15 @@
-
-import React from 'react'
+import AboutHero from "@/components/About/AboutHero";
+import AboutNarrative from "@/components/About/AboutNarrative";
+import Team from "@/components/About/Team";
+import Container from "@/components/Container";
+import React from "react";
 
 export default function page() {
   return (
-    <div className='w-full h-screen flex items-center justify-center'>
-      <h1>ABOUT</h1>
-  
-    </div>
-  )
+    <>
+      <AboutHero />
+      <AboutNarrative />
+      <Team/>
+    </>
+  );
 }
-
