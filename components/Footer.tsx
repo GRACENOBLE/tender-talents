@@ -31,12 +31,15 @@ export default function Footer() {
               <Navlink title={"About"} path={""} />
               <Navlink title={"Programs"} path={""} />
             </div>
-            <div className="text-tt-cream">
+            <div className="text-white text-xs font-bold">
               <h1 className="text-tt-yellow ">LOCATION</h1>
-              <p>P.O Box 26354, </p>
-              <p>UG Kasangati,</p>
-              <p>Buyinja zone,</p>
-              <p>Sseninde Road</p>
+              <br />
+              <div className="flex flex-col gap-2">
+                <p>P.O Box 26354, </p>
+                <p>UG Kasangati,</p>
+                <p>Buyinja zone,</p>
+                <p>Sseninde Road</p>
+              </div>
             </div>
             <div className="flex flex-col gap-2 text-tt-cream">
               <h1 className="text-tt-yellow">CONTACT</h1>
@@ -55,7 +58,7 @@ type NavLinkProps = { title: string; path: string };
 const Navlink = ({ title, path }: NavLinkProps) => (
   <Link
     href={path}
-    className="relative hover:text-gray-400 cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-gray-400 before:origin-center before:h-[1px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-gray-400 after:origin-center after:h-[1px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]"
+    className="relative hover:text-tt-yellow duration-300 before:w-full before:transition-all ease-in-out before:ease-in-out before:duration-300 before:absolute before:bg-tt-yellow before:origin-center before:h-[1px] before:scale-0 hover:before:scale-100 before:-bottom-1 before:left-0 text-white text-xs font-semibold"
   >
     {title}
   </Link>
