@@ -43,7 +43,7 @@ export default function Header() {
               <Navlink title={"About"} path={"/About"} />
               <Navlink title={"Contact"} path={"/Contact"} />
             </ul>
-            <Button className="">Apply Now</Button>
+            <Button className="hover:bg-tt-yellow/20 hover:text-white">Apply Now</Button>
           </div>
         </nav>
       </Container>
