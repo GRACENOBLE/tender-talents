@@ -8,35 +8,35 @@ import Image from "next/image";
 const StaffImages = [
   {
     image: "/images/home-images/about-home.webp",
-    caption: "Caption",
+    caption: "Title",
   },
   {
     image: "/images/home-images/about-home.webp",
-    caption: "Caption",
+    caption: "Title",
   },
   {
     image: "/images/home-images/about-home.webp",
-    caption: "Caption",
+    caption: "Title",
   },
   {
     image: "/images/home-images/about-home.webp",
-    caption: "Caption",
+    caption: "Title",
   },
   {
     image: "/images/home-images/about-home.webp",
-    caption: "Caption",
+    caption: "Title",
   },
   {
     image: "/images/home-images/about-home.webp",
-    caption: "Caption",
+    caption: "Title",
   },
   {
     image: "/images/home-images/about-home.webp",
-    caption: "Caption",
+    caption: "Title",
   },
   {
     image: "/images/home-images/about-home.webp",
-    caption: "Caption",
+    caption: "Title",
   },
 ];
 

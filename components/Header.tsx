@@ -5,10 +5,27 @@ import React, { useState,useEffect } from "react";
 import Link from "next/link";
 import Container from "./Container";
 import { Button } from "@/components/ui/button";
+import clsx from "clsx";
+import { usePathname } from "next/navigation";
 
 
 
 export default function Header() {
+  const pathname = usePathname();
+  
+  const Navlink = ({ title, path }: NavLinkProps) => (
+  <li>
+    <Link
+      href={path}
+      className={clsx(
+        "relative hover:text-tt-yellow duration-300 before:w-full before:transition-all ease-in-out before:ease-in-out before:duration-300 before:absolute before:bg-tt-yellow before:origin-center before:h-[1px] before:scale-0 hover:before:scale-100 before:-bottom-1 before:left-0 text-white text-xs font-semibold",
+        { "underline underline-offset-[7px]": pathname === path }
+      )}
+    >
+      {title}
+    </Link>
+  </li>
+);
   const[isScrolled, setisScrolled] = useState(false)
 
     useEffect(() =>{
@@ -53,13 +70,4 @@ export default function Header() {
 
 type NavLinkProps = { title: string; path: string };
 
-const Navlink = ({ title, path }: NavLinkProps) => (
-  <li>
-    <Link
-      href={path}
-      className="relative hover:text-tt-yellow duration-300 before:w-full before:transition-all ease-in-out before:ease-in-out before:duration-300 before:absolute before:bg-tt-yellow before:origin-center before:h-[1px] before:scale-0 hover:before:scale-100 before:-bottom-1 before:left-0 text-white text-xs font-semibold"
-    >
-      {title}
-    </Link>
-  </li>
-);
+
